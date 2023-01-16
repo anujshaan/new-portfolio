@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      'logo':['Merriweather']
+    }
   },
-  plugins: [],
+  plugins: [
+  ],
 }
