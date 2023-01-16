@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps,router }: AppProps) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
       <Navbar/>
-      <AnimatePresence initial={false}>
+      <AnimatePresence initial={true}>
         <Component key={router.pathname} {...pageProps} />
       </AnimatePresence>
   </div>
