@@ -8,13 +8,9 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.skill-circle{
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(19,166,92,1);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(19,166,92,1);
+  box-shadow: 0px 10px 5px 0px rgba(19,166,92,1);
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
